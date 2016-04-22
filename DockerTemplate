@@ -4,11 +4,11 @@ RUN mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app
 
-COPY Gemfile .
-COPY Gemfile.lock .
+COPY Gemfile /usr/src/app/Gemfile
+COPY Gemfile.lock /usr/src/app/Gemfile.lock
 
 RUN bundle
 
-COPY . .
+COPY . /usr/src/app
 
 CMD bundle exec rspec
