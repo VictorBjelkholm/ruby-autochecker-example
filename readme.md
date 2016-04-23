@@ -8,33 +8,33 @@ Badges indicated with `master-fail` should be passing only on 2.3 and fail on th
 
 ## CI services that currently runs these tests and is supported by autochecker
 
-CircleCI:
+### CircleCI
 
-master:
+#### master
 
 [![Circle CI](https://circleci.com/gh/VictorBjelkholm/ruby-autochecker-example.svg?style=svg)](https://circleci.com/gh/VictorBjelkholm/ruby-autochecker-example)
 
-master-fail:
+#### master-fail
 
 [![Circle CI](https://circleci.com/gh/VictorBjelkholm/ruby-autochecker-example/tree/master-fail.svg?style=svg)](https://circleci.com/gh/VictorBjelkholm/ruby-autochecker-example/tree/master-fail)
 
-Semaphoreci:
+### Semaphoreci
 
-master:
+#### master
 
 [![Build Status](https://semaphoreci.com/api/v1/victorbjelkholm/ruby-autochecker-example/branches/master/badge.svg)](https://semaphoreci.com/victorbjelkholm/ruby-autochecker-example)
 
-master-fail:
+#### master-fail
 
 [![Build Status](https://semaphoreci.com/api/v1/victorbjelkholm/ruby-autochecker-example/branches/master-fail/badge.svg)](https://semaphoreci.com/victorbjelkholm/ruby-autochecker-example)
 
-Travis CI:
+### Travis CI
 
-master:
+#### master
 
 [![Build Status](https://travis-ci.org/VictorBjelkholm/ruby-autochecker-example.svg?branch=master)](https://travis-ci.org/VictorBjelkholm/ruby-autochecker-example)
 
-master-fail:
+#### master-fail
 
 [![Build Status](https://travis-ci.org/VictorBjelkholm/ruby-autochecker-example.svg?branch=master-fail)](https://travis-ci.org/VictorBjelkholm/ruby-autochecker-example)
 
